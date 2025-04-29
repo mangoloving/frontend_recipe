@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <style>
+ 	body, html {
+		height: 100%; /* Ensure the body and html take up the full height */
+		margin: 0; /* Remove default margin */
+		padding:0; /*Remove bottom space*/
+		display: flex; /* Enable flexbox */
+		justify-content: center; /* Center horizontally */
+		align-items: center; /* Center vertically */
+		background-color: #F3E5D8;
+		font-family: Arial;}
+
+	.box {
+        background-color: white; /* Square background */
+        padding: 20px; /* Space inside the box */
+        border-radius: 10px; /* Optional: Rounded corners */
+        display: flex;
+        flex-direction: column;}
+		
+	.highlight {
+        background-color: #FFF0F5; /* Square background */
+        padding: 10px 15px 10px 15px; /* Space inside the box */
+        border-radius: 10px; /* Optional: Rounded corners */
+        display: flex;
+        flex-direction: column;}	
+		
+	img {
+		max-width: 100%; /* Optional: Make image responsive */
+		height: auto; /* Keep the aspect ratio */
+		border-radius: 5px;}
+		
+	h2 { 
+	    font-family: Georgia;
+		font-size: 26px; 
+		text-align: left;
+		margin-top: 10px; /* Add space between the image and the text */
+		max-width: 420px; /* Optional: Limit the maximum width of the text */
+        word-wrap: break-word; /* Allow text to wrap within container */
+		margin-bottom: 0px;}
+		
+	h6 { 
+		color: #8B0000;
+		font-weight: bold;
+		font-size: 14px; 
+		text-align: left;
+		margin-top: 5px; /* Add space between the image and the text */
+		max-width: 420px; /* Optional: Limit the maximum width of the text */
+        word-wrap: break-word; /* Allow text to wrap within container */
+		margin-bottom: 5px;}
+		
+	h5 { 		
+		color: #8B0000;	
+		font-family: Georgia;
+		font-weight: bold;
+		font-size: 18px; 
+		text-align: left;
+		margin-top: 5px; /* Add space between the image and the text */
+		max-width: 420px; /* Optional: Limit the maximum width of the text */
+        word-wrap: break-word; /* Allow text to wrap within container */
+		margin-bottom: 5px;}	
+		
+	p { 		
+		font-size: 11px; 
+		text-align: left;
+		margin-top: 5px; /* Add space between the image and the text */
+		max-width: 420px; /* Optional: Limit the maximum width of the text */
+        word-wrap: break-word; /* Allow text to wrap within container */
+		margin-bottom: 5px;}
+
+		
+  </style>
+</head>
+<body>
+	<div class="box">
+	  <img src="assets/images/image-omelette.jpeg" alt="My test image" style="width:420px;height:auto;" />
+	  <h2>Simple Omelette Recipe</h2>
+	  <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+	  <br>
+	  <div class="highlight">
+		  <h6>Preparation time</h6>
+		  <p>&nbsp;&nbsp;<span style="margin-right: 15px;">&#8226;</span><strong>Total:</strong> Approximately 10 minutes</p>
+		  <p>&nbsp;&nbsp;<span style="margin-right: 15px;">&#8226;</span><strong>Preparation:</strong> 5 minutes</p>
+		  <p>&nbsp;&nbsp;<span style="margin-right: 15px;">&#8226;</span><strong>Cooking:</strong> 5 minutes</p>
+	  </div>
+	  <br>
+	  <h5>Ingredients</h5>
+	  <p>&nbsp;&nbsp;<span style="margin-right: 15px;">&#8226;</span>2-3 large eggs</p>
+	  <p>&nbsp;&nbsp;<span style="margin-right: 15px;">&#8226;</span>Salt, to taste</p>
+	  <p>&nbsp;&nbsp;<span style="margin-right: 15px;">&#8226;</span>Pepper, to taste</p>	  
+	  <p>&nbsp;&nbsp;<span style="margin-right: 15px;">&#8226;</span>1 tablespoon of butter or oil</p>	 
+	  <p>&nbsp;&nbsp;<span style="margin-right: 15px;">&#8226;</span>Optional fillings: cheese, diced vegetables, cooked meats, herbs</p>	 
+	  <hr style="border: none; height: 1px; background-color: #d3d3d3; width: 100%;">
+	  
+	  <h5>Instructions</h5>		
+		<p style="text-indent: -2.5em; padding-left: 3em;">
+		  <strong style="margin-right: 15px;">1.</strong> <strong>Beat the eggs:</strong>
+		  In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+		  You can add a tablespoon of water or milk for a fluffier texture.
+		</p>
+		<p style="text-indent: -2.5em; padding-left: 3em;">
+		  <strong style="margin-right: 15px;">2.</strong> <strong>Heat the pan:</strong>
+		  Place a non-stick frying pan over medium heat and add butter or oil.
+		</p>
+		<p style="text-indent: -2.5em; padding-left: 3em;">
+		  <strong style="margin-right: 15px;">3.</strong> <strong>Cook the omelette:</strong>
+		  Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.
+		</p>	
+		<p style="text-indent: -2.5em; padding-left: 3em;">
+		  <strong style="margin-right: 15px;">4.</strong> <strong>Add fillings (optional):</strong>
+		  When the eggs begin to set at the edges but are still slightly runny in the middle, 
+		  sprinkle your chosen fillings over one half of the omelette.
+		</p>	
+		<p style="text-indent: -2.5em; padding-left: 3em;">
+		  <strong style="margin-right: 15px;">5.</strong> <strong>Fold and serve:</strong>
+		  As the omelette continues to cook, carefully lift one edge and fold it over the fillings. 
+		  Let it cook for another minute, then slide it onto a plate.
+		</p>	
+		<p style="text-indent: -2.5em; padding-left: 3em;">
+		  <strong style="margin-right: 15px;">6.</strong> <strong>Enjoy:</strong>
+		  Serve hot, with additional salt and pepper if needed.
+		</p>	
+	  <hr style="border: none; height: 1px; background-color: #d3d3d3; width: 100%;">
+	  
+	  <h5>Nutrition</h5>	
+	  <p>The table below shows nutritional values per serving without the additional fillings.</p>			
+	  <div style="height: 5px;"></div>
+		
+	  <style>
+		  table {
+			width: 100%;
+			border-collapse: collapse;
+			font-size: 11px;
+		  }
+
+		  th, td {
+			border-bottom: 1px solid #ccc; /* only bottom line */
+			padding: 8px; /* optional, make it look nicer */
+			text-align: left;
+		  }
+		  
+		  tr:last-child td {
+			border-bottom: none;
+		  }
+
+		  th {
+			background-color: #f2f2f2;
+		  }
+		  
+		  .column-a {
+			padding-left: 20px; /* move text to the right */
+		  }
+  
+		  .column-b {
+			color: #8B0000;
+			font-weight: bold;
+			padding-right: 20px;
+		  }
+	  </style>	
+
+	  <table>
+	  <tbody>
+		<tr>
+		  <td class="column-a">Calories</td>
+		  <td class="column-b">277kcal</td>
+		</tr> 
+		<tr>
+		  <td class="column-a">Carbs</td>
+		  <td class="column-b">0g</td>
+		</tr>
+		<tr>
+		  <td class="column-a">Protein</td>
+		  <td class="column-b">20g</td>
+		</tr>
+		<tr>
+		  <td class="column-a">Fat</td>
+		  <td class="column-b">22g</td>
+		</tr>
+	  </tbody>
+	  </table>
+	
+		
+	</div>  
+
+</body>
+</html>
